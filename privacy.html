@@ -6,13 +6,8 @@
 <p>Text extracted from the files, photos, scans and recordings you import, and the quizzes, flashcards, answers, study history, streak, study plan and settings you create are stored in the app's private storage on your device. We do not run a server that stores your content. Exported files go only where you choose to save or share them.</p>
 
 <h2>2. AI processing</h2>
-<ul>
-<li><strong>Apple Intelligence (on device):</strong> on supported devices, questions and flashcards are generated on your device and nothing is sent to us.</li>
-<li><strong>Google Gemini via Firebase (optional):</strong> only if on-device AI can't be used <em>and</em> you turn on cloud AI, the text of the sections you selected is sent over an encrypted connection to Google's Gemini API through Google Firebase AI Logic to generate the questions or cards. Your original file, images and audio are not uploaded. This text is handled under the <a href="https://firebase.google.com/support/privacy">Firebase</a> and <a href="https://ai.google.dev/gemini-api/terms">Gemini API</a> terms. The app asks for this permission the first time cloud AI is needed; <em>Settings → Delete All Data</em> withdraws it.</li>
-<li><strong>Study assistant (chat):</strong> your chat messages are answered the same way — on device when possible, otherwise by Google Gemini only with your permission. Then your recent messages (and, if you attach study material, its text) are sent to generate the answer. Conversations are stored only on your device and are erased with <em>Delete All Data</em>.</li>
-<li><strong>Without AI:</strong> you can write your own questions, or extract term–definition cards with simple rules that run on your device.</li>
-</ul>
-<p>Please avoid sending sensitive personal information to a cloud AI service.</p>
+<p>Quiz and flashcard generation and the study assistant use Google Gemini through Google Firebase AI Logic. When you generate or chat, the text needed for that request is sent over an encrypted connection to Google: the text of the sections you selected, or your recent chat messages and, if you attach study material, its text. Your original file, images and audio are not uploaded. The text is handled under the <a href="https://firebase.google.com/support/privacy">Firebase</a> and <a href="https://ai.google.dev/gemini-api/terms">Gemini API</a> terms; on the current no-cost tier Google may use it to improve its products. The app tells you this where you generate. Without AI you can write your own questions or extract term–definition cards with simple rules that run on your device. Conversations are stored only on your device and are erased with <em>Delete All Data</em>.</p>
+<p>Please avoid including sensitive personal information in material you send to AI features.</p>
 
 <h2>3. Camera, photos, microphone and speech recognition</h2>
 <ul>
@@ -33,10 +28,10 @@
 <ul><li>No advertising, no ad tracking, no IDFA.</li><li>No analytics SDKs and no tracking across apps.</li><li>We do not sell or share your information, and we do not build profiles from your documents.</li></ul>
 
 <h2>8. Service providers</h2>
-<ul><li>Apple (App Store, StoreKit, Apple Intelligence, Vision, speech recognition)</li><li>Google Firebase (App Check, AI Logic) and Google Gemini API — only when you allow cloud AI</li><li>RevenueCat (subscription management)</li></ul>
+<ul><li>Apple (App Store, StoreKit, Vision, speech recognition)</li><li>Google Firebase (App Check, AI Logic) and Google Gemini API (when you use AI features)</li><li>RevenueCat (subscription management)</li></ul>
 
 <h2>9. Retention and deletion</h2>
-<p>Content stays on your device until you delete it or delete the app. <em>Settings → Delete All Data</em> removes everything the app stored on your device. Text already sent to cloud AI can't be deleted from the app. Purchase records kept by Apple and RevenueCat are governed by their policies. You can also email us with any request.</p>
+<p>Content stays on your device until you delete it or delete the app. <em>Settings → Delete All Data</em> removes everything the app stored on your device. Text already sent to the AI service can't be deleted from the app. Purchase records kept by Apple and RevenueCat are governed by their policies. You can also email us with any request.</p>
 
 <h2>10. Children</h2>
 <p>The app is not directed to children under 13, and we do not knowingly collect personal information from children.</p>
@@ -49,13 +44,13 @@
 
 <section class="tr" id="tr"><h2>Gizlilik Politikası (Türkçe)</h2><p class="meta">Son güncelleme: 24 Kasım 2026</p>
 <h3>İçeriğin cihazında kalır</h3><p>İçe aktardığın dosya, fotoğraf, tarama ve kayıtlardan çıkarılan metin; testler, kartlar, cevaplar, çalışma geçmişi, seri, çalışma planı ve ayarlar uygulamanın cihazındaki özel alanında saklanır. İçeriğini saklayan bir sunucumuz yoktur.</p>
-<h3>Yapay zekâ</h3><p>Destekleyen cihazlarda sorular Apple Intelligence ile cihazında üretilir. Yalnızca cihaz içi AI kullanılamıyorsa <em>ve</em> bulut AI'ı açarsan, seçtiğin bölümlerin metni Google Firebase AI Logic üzerinden Google Gemini'ye şifreli olarak gönderilir; dosyanın kendisi, görseller ve ses yüklenmez. Bu izin bulut AI ilk kez gerektiğinde istenir; <em>Ayarlar → Tüm Verileri Sil</em> izni geri alır.</p>
+<h3>Yapay zekâ</h3><p>Test ve kart üretimi ile çalışma asistanı, Google Firebase AI Logic üzerinden Google Gemini kullanır. Ürettiğinde veya sohbet ettiğinde, o istek için gereken metin şifreli bağlantıyla Google’a gönderilir: seçtiğin bölümlerin metni veya son sohbet mesajların ve çalışma materyali eklediysen onun metni. Dosyanın kendisi, görseller ve ses yüklenmez. Metin Firebase ve Gemini API koşullarına göre işlenir; mevcut ücretsiz katmanda Google bunu ürünlerini geliştirmek için kullanabilir. Uygulama bunu üretim adımında sana söyler. Yapay zekâ olmadan kendi sorularını yazabilir veya cihazında çalışan basit kurallarla kavram–tanım kartları çıkarabilirsin. Sohbetler yalnızca cihazında saklanır ve Tüm Verileri Sil ile silinir.</p>
 <h3>Çalışma asistanı</h3><p>Sohbet mesajların da aynı kurallarla yanıtlanır: mümkünse cihazında, değilse yalnız iznin varsa Google Gemini ile. Bu durumda son mesajların (ve eklediysen çalışma materyalinin metni) gönderilir. Sohbetler yalnız cihazında saklanır ve Tüm Verileri Sil ile silinir.</p>
 <h3>Kamera, fotoğraf, mikrofon, konuşma tanıma</h3><p>Yalnızca tarama, fotoğraf seçme ve kayıt sırasında kullanılır. Metin tanıma ve yazıya dökme cihazında yapılır; ses hiçbir sunucuya gönderilmez.</p>
 <h3>Bildirimler</h3><p>Çalışma hatırlatmalarını açarsan, seçtiğin saatte cihazında yerel bildirimler planlanır; hiçbir veri cihazından çıkmaz.</p>
 <h3>Tanımlayıcılar</h3><p>Hesap yoktur. Uygulamayı yeniden yüklediğinde tanıtım ekranlarının tekrar gösterilmemesi için cihazının Anahtar Zinciri'nde kişisel bilgi içermeyen küçük bir işaret tutulur.</p>
 <h3>Abonelikler</h3><p>Ödemeler Apple tarafından işlenir; ödeme bilgilerini almayız. Abonelik durumu için RevenueCat kullanılır; RevenueCat rastgele bir uygulama kullanıcı kimliği ve Apple'dan satın alma bilgisi alır.</p>
 <h3>Yapmadıklarımız</h3><p>Reklam, reklam takibi, analitik SDK veya uygulamalar arası takip yoktur; verini satmayız veya paylaşmayız.</p>
-<h3>Silme ve haklar</h3><p><em>Ayarlar → Tüm Verileri Sil</em> uygulamanın cihazında sakladığı her şeyi siler. Bulut AI'a gönderilmiş metin uygulamadan silinemez. KVKK ve GDPR kapsamındaki hakların için bize yazabilirsin: <a href="mailto:rcpyesilkaya@gmail.com">rcpyesilkaya@gmail.com</a></p>
+<h3>Silme ve haklar</h3><p><em>Ayarlar → Tüm Verileri Sil</em> uygulamanın cihazında sakladığı her şeyi siler. Yapay zekâ hizmetine gönderilmiş metin uygulamadan silinemez. KVKK ve GDPR kapsamındaki hakların için bize yazabilirsin: <a href="mailto:rcpyesilkaya@gmail.com">rcpyesilkaya@gmail.com</a></p>
 <h3>Çocuklar</h3><p>Uygulama 13 yaş altındaki çocuklara yönelik değildir.</p></section>
 <footer>© 2026 Quiz Maker. Questions / Sorular: <a href="mailto:rcpyesilkaya@gmail.com">rcpyesilkaya@gmail.com</a></footer></main></body></html>
